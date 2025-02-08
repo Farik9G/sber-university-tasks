@@ -1,9 +1,9 @@
-package terminal;
+package ru.meeral.terminal;
 
-import terminal.exceptions.AccountIsLockedException;
-import terminal.exceptions.InsufficientFundsException;
-import terminal.exceptions.InvalidAmountException;
-import terminal.exceptions.InvalidSessionException;
+import ru.meeral.terminal.exceptions.InsufficientFundsException;
+import ru.meeral.terminal.exceptions.AccountIsLockedException;
+import ru.meeral.terminal.exceptions.InvalidAmountException;
+import ru.meeral.terminal.exceptions.InvalidSessionException;
 
 public interface Terminal {
     void enterPin(char digit) throws AccountIsLockedException;

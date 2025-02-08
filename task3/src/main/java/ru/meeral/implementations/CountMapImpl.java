@@ -5,7 +5,7 @@ import ru.meeral.interfaces.CountMap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CountMapImplementation<T> implements CountMap<T> {
+public class CountMapImpl<T> implements CountMap<T> {
     private final Map<T, Integer> map = new HashMap<>();
 
     @Override

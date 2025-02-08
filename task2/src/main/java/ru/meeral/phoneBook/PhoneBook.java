@@ -1,4 +1,4 @@
-package ru.meeral.telephoneBook;
+package ru.meeral.phoneBook;
 
 import java.util.*;
 

@@ -1,6 +1,6 @@
-package terminal;
+package ru.meeral.terminal;
 
-import terminal.exceptions.AccountIsLockedException;
+import ru.meeral.terminal.exceptions.AccountIsLockedException;
 
 public class PinValidator {
     private static final String CORRECT_PIN = "1337";

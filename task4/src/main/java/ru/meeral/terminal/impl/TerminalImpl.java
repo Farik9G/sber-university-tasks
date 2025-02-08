@@ -1,12 +1,12 @@
-package terminal.impl;
+package ru.meeral.terminal.impl;
 
-import terminal.PinValidator;
-import terminal.Terminal;
-import terminal.TerminalServer;
-import terminal.exceptions.AccountIsLockedException;
-import terminal.exceptions.InsufficientFundsException;
-import terminal.exceptions.InvalidAmountException;
-import terminal.exceptions.InvalidSessionException;
+import ru.meeral.terminal.PinValidator;
+import ru.meeral.terminal.TerminalServer;
+import ru.meeral.terminal.Terminal;
+import ru.meeral.terminal.exceptions.AccountIsLockedException;
+import ru.meeral.terminal.exceptions.InsufficientFundsException;
+import ru.meeral.terminal.exceptions.InvalidAmountException;
+import ru.meeral.terminal.exceptions.InvalidSessionException;
 
 public class TerminalImpl implements Terminal {
     private final TerminalServer server;

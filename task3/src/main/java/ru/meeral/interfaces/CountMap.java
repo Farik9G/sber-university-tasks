@@ -2,33 +2,18 @@ package ru.meeral.interfaces;
 
 import java.util.Map;
 
-public interface CountMap {
-    void add(Object o);
+public interface CountMap <T> {
+    void add(T o);
 
-    int getCount(Object o);
+    int getCount(T o);
 
-    int remove(Object o);
+    int remove(T o);
 
     int size();
 
-    void addAll(CountMap source);
+    void addAll(CountMap<T> source);
 
-    Map toMap();
+    Map<T, Integer> toMap();
 
-    void toMap(Map destination);
-
-    public static void main(String[] args) {
-        CountMap map = null;
-
-        map.add(10);
-        map.add(10);
-        map.add(5);
-        map.add(6);
-        map.add(5);
-        map.add(10);
-/*
-        int count = map.getCout(5); // 2
-        int count = map.getCout(6); // 1
-        int count = map.getCout(10); // 3*/
-    }
+    void toMap(Map<T, Integer> destination);
 }
