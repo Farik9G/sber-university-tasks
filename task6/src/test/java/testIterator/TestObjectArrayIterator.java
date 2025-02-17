@@ -1,3 +1,6 @@
+package testIterator;
+
+import iterator.ObjectArrayIterator;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
