@@ -1,3 +1,5 @@
+package streams;
+
 import java.util.*;
 import java.util.Objects;
 import java.util.function.Function;
@@ -36,6 +38,6 @@ public class Streams<T> {
         return elements.stream()
                 .collect(Collectors.toMap(keyMapper, valueMapper, (e1, e2) -> e1));
     }
-    
+
 }
 
