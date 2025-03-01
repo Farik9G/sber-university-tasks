@@ -1,15 +1,20 @@
 import java.math.BigInteger;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
 
-public class Multithreading extends Thread {
-    private static final BlockingQueue<Integer> queue = new LinkedBlockingQueue<>();
+public class Worker extends Thread {
+
+    private final BlockingQueue<Integer> queue;
+
+    public Worker(BlockingQueue<Integer> queue) {
+        this.queue = queue;
+    }
 
     @Override
     public void run() {
         try {
             while (true) {
                 int number = queue.take();
+
                 if (number == -1) {
                     break;
                 }
