@@ -15,7 +15,10 @@
         <module>task4</module>
         <module>task5</module>
         <module>task6</module>
-        <module>task6</module>
+        <module>task9</module>
+        <module>task10</module>
+        <module>task11</module>
+        <module>task14</module>
     </modules>
 
     <properties>

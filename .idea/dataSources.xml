@@ -7,6 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+      <vm-env>
+        <property name="DATASOURCE_USERNAME" value="meeral" />
+        <property name="DATASOURCE_URL" value="jdbc:postgresql://localhost:5432/postgres" />
+        <property name="DATASOURCE_PASSWORD" value="pg1337" />
+      </vm-env>
     </data-source>
   </component>
 </project>
