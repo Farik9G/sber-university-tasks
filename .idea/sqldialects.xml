@@ -2,6 +2,5 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/task14/src/main/java/database/DataBaseHandlerImpl.java" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/task15/src/main/java/ru/meeral/task15/dataBase/DataBaseHandlerImpl.java" dialect="GenericSQL" />
   </component>
 </project>
